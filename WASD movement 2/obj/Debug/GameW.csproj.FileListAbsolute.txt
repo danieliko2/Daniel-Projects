@@ -1,0 +1,15 @@
+C:\Users\Joe1\source\repos\GameW\obj\Debug\MainWindow.g.cs
+C:\Users\Joe1\source\repos\GameW\obj\Debug\App.g.cs
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW_MarkupCompile.cache
+C:\Users\Joe1\source\repos\GameW\bin\Debug\GameW.exe.config
+C:\Users\Joe1\source\repos\GameW\bin\Debug\GameW.exe
+C:\Users\Joe1\source\repos\GameW\bin\Debug\GameW.pdb
+C:\Users\Joe1\source\repos\GameW\obj\Debug\MainWindow.baml
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.g.resources
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.Properties.Resources.resources
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.csproj.GenerateResource.cache
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.csproj.CoreCompileInputs.cache
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.exe
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.pdb
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW.csprojAssemblyReference.cache
+C:\Users\Joe1\source\repos\GameW\obj\Debug\GameW_MarkupCompile.lref

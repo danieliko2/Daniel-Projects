@@ -1,0 +1,13 @@
+E:\VS Projects\GameL\bin\Debug\netcoreapp3.1\GameL.exe
+E:\VS Projects\GameL\bin\Debug\netcoreapp3.1\GameL.deps.json
+E:\VS Projects\GameL\bin\Debug\netcoreapp3.1\GameL.runtimeconfig.json
+E:\VS Projects\GameL\bin\Debug\netcoreapp3.1\GameL.runtimeconfig.dev.json
+E:\VS Projects\GameL\bin\Debug\netcoreapp3.1\GameL.dll
+E:\VS Projects\GameL\bin\Debug\netcoreapp3.1\GameL.pdb
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.csprojAssemblyReference.cache
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.AssemblyInfoInputs.cache
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.AssemblyInfo.cs
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.csproj.CoreCompileInputs.cache
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.dll
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.pdb
+E:\VS Projects\GameL\obj\Debug\netcoreapp3.1\GameL.genruntimeconfig.cache

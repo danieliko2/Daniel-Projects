@@ -1,0 +1,2 @@
+converts multiple text (.txt) files to an excel sheet,
+first column file name, second column file content.

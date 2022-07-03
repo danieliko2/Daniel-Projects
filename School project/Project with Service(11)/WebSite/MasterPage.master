@@ -1,0 +1,203 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage2" %>
+
+<%@ Register src="WebUserControlShoppingBag.ascx" tagname="WebUserControlShoppingBag" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .style5
+        {
+            width: 22px;
+            height: 197px;
+        }
+        .style7
+        {
+            width: 793px;
+            height: 197px;
+        }
+        .style6
+        {
+            height: 20px;
+            width: 22px;
+        }
+        .style8
+        {
+            height: 20px;
+            width: 793px;
+        }
+        .style2
+        {
+            height: 20px;
+            width: 366px;
+        }
+        .style9
+        {
+            width: 22px;
+            height: 24px;
+        }
+        .style10
+        {
+            width: 793px;
+            height: 24px;
+        }
+        .style11
+        {
+            height: 24px;
+            width: 366px;
+        }
+        .style12
+        {
+            height: 8px;
+            width: 22px;
+        }
+        .style13
+        {
+            height: 8px;
+            width: 793px;
+        }
+        .style14
+        {
+            height: 8px;
+            width: 366px;
+        }
+        .style15
+        {
+            width: 366px;
+            height: 197px;
+        }
+    </style>
+</head>
+<body bgcolor="#66ccff">
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="false" cellspacing="0" frame="void" 
+            align="right">
+            <tr>
+                <td class="style5">
+                    </td>
+                <td class="style7" align="right" 
+                    style="background-image: url('/WebSite/Pics/SiteBanner.jpg')" 
+                    dir="ltr">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    &nbsp;&nbsp;
+                    &nbsp;<asp:Label ID="LabelName" runat="server" Font-Bold="True" Font-Italic="True"></asp:Label>
+                    <asp:Label ID="LabelWelcome" runat="server" Text="ברוך הבא " Visible="False"></asp:Label>
+                    <a href="LoginForm.aspx"> <asp:Image ID="ImgLogin" runat="server" 
+                        ImageUrl="~/Pics/התחבר.bmp" /></a><a href=SignUpForm.aspx><asp:Image ID="ImgSignup" runat="server" 
+                        ImageUrl="~/Pics/הרשם.bmp" /></a></td>
+                <td class="style15">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    </td>
+            </tr>
+            <tr>
+                <td class="style12">
+                </td>
+                <td class="style13" style="border-color: #FFFFFF; background-color: #FFFFFF" 
+                    dir="rtl">
+                    <asp:Menu ID="Menu2" runat="server" BackColor="#B5C7DE" 
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1em" 
+                        Font-Underline="True" ForeColor="#284E98" Height="20px" 
+                        Orientation="Horizontal" StaticSubMenuIndent="10px" Width="40px">
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#B5C7DE" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Products.aspx" Text="מוצרים" Value="מוצרים">
+                            </asp:MenuItem>
+                            <asp:MenuItem Selectable="False" Text="&gt;" Value="&lt;&lt;"></asp:MenuItem>
+                            <asp:MenuItem Text="מעבדים" Value="מעבדים" NavigateUrl="~/Processors.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="כרטיסי מסך" Value="כרטיסי מסך" 
+                                NavigateUrl="~/GraphicCards.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="לוחות אם" Value="לוחות אם" 
+                                NavigateUrl="~/Motherboards.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="זיכרונות" Value="זיכרונות" NavigateUrl="~/Memories.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="דיסקים קשיחים" Value="דיסקים קשיחים" 
+                                NavigateUrl="~/HardDisks.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="מארזים" Value="מארזים" NavigateUrl="~/Cases.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <asp:Menu ID="MenuAdmin" runat="server" BackColor="#FFFBD6" 
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                        ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+                        Visible="False">
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <Items>
+                            <asp:MenuItem Selectable="False" Text="&lt;תפריט מנהל&gt;" Value="New Item">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="הוסף מוצר" Value="הוסף מוצר" 
+                                NavigateUrl="~/AddProduct.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/AdminChooseProduct.aspx" Text="ערוך מוצר" 
+                                Value="ערוך מוצר"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="AdminDeleteProduct.aspx" Text="מחק מוצר" 
+                                Value="מחק מוצר"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+                </td>
+                <td class="style14">
+                <br />
+                <br />
+                <a href="OrderPage.aspx" style="color: #0066CC">סל קניות</a><br />
+                    <asp:LinkButton ID="LinkButtonMyOrders" runat="server" ForeColor="#0066CC" 
+                    Visible="False" onclick="LinkButtonMyOrders_Click">הזמנות שלי</asp:LinkButton>
+                    <br />
+                    <asp:LinkButton ID="LinkButtonLogOut" runat="server" ForeColor="#0066CC" 
+                        onclick="LinkButtonLogOut_Click" Visible="False">התנתק</asp:LinkButton>
+                    </td>
+            </tr>
+            <tr>
+                <td class="style6">
+                </td>
+                <td class="style8" style="background-color: #FFFFFF">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p style="width: 794px" dir="rtl">
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td class="style2" align="left" dir="ltr">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style9">
+                    </td>
+                <td class="style10" style="background-color: #02C6D0" align="right">
+                    &nbsp;</td>
+                <td class="style11">
+                    </td>
+            </tr>
+        </table>
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

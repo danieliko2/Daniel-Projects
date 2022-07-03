@@ -1,0 +1,20 @@
+E:\VS Projects\ProjectTest\bin\Debug\ProjectTest.exe.config
+E:\VS Projects\ProjectTest\bin\Debug\ProjectTest.exe
+E:\VS Projects\ProjectTest\bin\Debug\ProjectTest.pdb
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.csprojAssemblyReference.cache
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.Form1.resources
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.Properties.Resources.resources
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.csproj.GenerateResource.cache
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.csproj.CoreCompileInputs.cache
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.exe
+E:\VS Projects\ProjectTest\obj\Debug\ProjectTest.pdb
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.csproj.AssemblyReference.cache
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.Form1.resources
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.Properties.Resources.resources
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.csproj.GenerateResource.cache
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.csproj.CoreCompileInputs.cache
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.exe
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\obj\Debug\ProjectTest.pdb
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\bin\Debug\ProjectTest.exe.config
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\bin\Debug\ProjectTest.exe
+C:\from ssd\שונות\Daniel Projects\Basic Calculator\bin\Debug\ProjectTest.pdb

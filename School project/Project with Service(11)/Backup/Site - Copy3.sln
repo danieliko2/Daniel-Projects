@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Site - Copy3", "Site - Copy3\", "{A8609791-818D-45E0-AADB-A6F02533A65E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/Site - Copy3"
+		Debug.AspNetCompiler.PhysicalPath = "G:\Project\Project with Service\Site - Copy3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Site - Copy3\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Site - Copy3"
+		Release.AspNetCompiler.PhysicalPath = "G:\Project\Project with Service\Site - Copy3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Site - Copy3\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1151"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8609791-818D-45E0-AADB-A6F02533A65E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A8609791-818D-45E0-AADB-A6F02533A65E}.Debug|.NET.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

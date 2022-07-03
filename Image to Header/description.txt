@@ -1,0 +1,1 @@
+Selected images gets placed in header of all doc files in selected folder.

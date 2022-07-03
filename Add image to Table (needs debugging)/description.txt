@@ -1,0 +1,2 @@
+adds selected images to table in document.
+Needs debugging (failing currently).

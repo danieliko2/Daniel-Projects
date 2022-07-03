@@ -1,0 +1,1 @@
+Gets file icons and names in selected folder into the document.

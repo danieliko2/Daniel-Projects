@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Site - Copy3">
+</Property><Property Name="Solution File" Value="E:\All Backups But windowsלא למחוק\daniel\יב\Project with Service(11)\Site - Copy3.sln">
+</Property><Property Name="User Options File" Value="E:\All Backups But windowsלא למחוק\daniel\יב\Project with Service(11)\Site - Copy3.suo">
+</Property><Property Name="Date" Value="יום חמישי 13 מרץ 2014">
+</Property><Property Name="Time" Value="17:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Site - Copy3.sln" Description="File successfully backed up as E:\All Backups But windowsלא למחוק\daniel\יב\Project with Service(11)\Backup\Site - Copy3.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Site - Copy3.suo" Description="File successfully backed up as E:\All Backups But windowsלא למחוק\daniel\יב\Project with Service(11)\Backup\Site - Copy3.suo">
+</Event><Event ErrorLevel="2" Project="E:\All Backups But windowsלא למחוק\daniel\יב\Project with Service(11)\Site - Copy3\" Source="Site - Copy3\" Description="ERROR: Failed to back up Web site E:\All Backups But windowsלא למחוק\daniel\יב\Project with Service(11)\Site - Copy3\">
+</Event><Event ErrorLevel="0" Project="" Source="Site - Copy3.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Site - Copy3.sln" Description="Converted">
+</Event></UpgradeLog>

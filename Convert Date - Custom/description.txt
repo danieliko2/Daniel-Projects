@@ -1,0 +1,2 @@
+Copies document and converts the date at pages 15 and 18 to 3 days from now.
+(ReplaceDateThisDoc)
