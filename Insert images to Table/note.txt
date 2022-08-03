@@ -1,0 +1,10 @@
+Hi!
+
+Before running the macro make sure to:
+
+	A) have the template document (temp) at 'template' directory
+	B) have all your pictures in folders in 'pictures' directory
+
+
+Cheers,
+Daniel
